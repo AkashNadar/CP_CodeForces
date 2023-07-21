@@ -1,0 +1,6 @@
+BFS is used to traverse the graph by level by level 
+
+1 -> first needed to create a queue and store the first node inside the queue
+2 -> create a list n + 1 with default as 0 this is to check the nodes are visited if visited we will update it as 1
+        and we will avoid putting it to the queue.
+3 -> create an adjacent list to store the data of graph inside the Array<Array<Integer>>

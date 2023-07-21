@@ -1,0 +1,6 @@
+1. In the DFS we will be traversing through the depth of the graph also we need to observe that it is an 
+    zero based indexing graph.
+2. So for this we will be using recursion 
+3. we need to have a array list to keep the track of visited node .
+4. on the recursion we need to put a condition for the visited node to not to traverse on that node .
+5. Depending on the adjaceny list it will be decided to traverse left side or right side.
