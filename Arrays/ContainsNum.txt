@@ -1,0 +1,11 @@
+check whether the nums contain inside the array 
+[1,2, 3, 4] -> return true  [1, 2, 3, 3, 1] -> return false 
+
+1. brute force sol will be check one number and compare it with the other numbers 
+    this will be O(n)2
+
+2. Another sol is to sort the array and check the adj number is same as previous 
+    for sorting complexity will be (logn) and for iterating (n) so the O(nlogn)
+
+3. More compact solution will be using extra space we can use one Hashset and check whether 
+    the numbers from array contains inside the Hashset complexity will be O(n) space will be O(n)
